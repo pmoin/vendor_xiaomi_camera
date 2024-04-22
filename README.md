@@ -31,6 +31,7 @@ $(call inherit-product-if-exists, vendor/xiaomi/camera/miuicamera.mk)
     </hal>
 ```
 3.1 Reference - https://github.com/VoidUI-Devices/device_xiaomi_sm8250-common/commit/c8ae872b8fdbc682da0f98a2031125d68ef0afe9
+
 3.2 Reference - https://gitlab.com/johnmart19/vendor_xiaomi_camera
 
 - Thanks a to johnmart19 (Ivan) who made things possible on alioth/aliothin device.
