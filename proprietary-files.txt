@@ -1,0 +1,66 @@
+# From Alioth MIUI V14.0.8.0.TKHMIXM package
+# Leica App Mod
+system/priv-app/MiuiCamera/MiuiCamera.apk;OVERRIDES=GrapheneCamera,Camera,Camera2,Aperture,GoogleCameraGo
+
+# Device Prebuilts
+system/etc/public.libraries-xiaomi.txt
+system/lib64/libcamera_algoup_jni.xiaomi.so
+system/lib64/libcamera_mianode_jni.xiaomi.so
+system/lib64/libmicampostproc_client.so
+system/lib64/vendor.xiaomi.hardware.campostproc@1.0.so
+
+# Device OpenCL Prebuilts
+system_ext/lib/libOpenCL_system.so
+system_ext/lib64/libOpenCL_system.so
+
+# Device Camera Deps
+vendor/bin/f2player
+vendor/lib64/lib_sr_models.so
+vendor/lib64/libarcsat.so
+vendor/lib64/libbeauty_face_interface.so
+vendor/lib64/libflaw.so
+vendor/lib64/librelight_only.so
+vendor/lib64/libsdk_sr.so
+vendor/lib64/libsupermoon.so
+
+# MiSys
+system/etc/permissions/vendor.xiaomi.hardware.misys-V1.0-java-permission.xml
+system/etc/permissions/vendor.xiaomi.hardware.misys-V2.0-java-permission.xml
+system/etc/permissions/vendor.xiaomi.hardware.misys-V4.0-java-permission.xml
+system/etc/permissions/vendor.xiaomi.hardware.misys.V3_0-permission.xml
+system/framework/vendor.xiaomi.hardware.misys-V1.0-java.jar
+system/framework/vendor.xiaomi.hardware.misys-V2.0-java.jar
+system/framework/vendor.xiaomi.hardware.misys-V4.0-java.jar
+system/framework/vendor.xiaomi.hardware.misys.V3_0.jar
+system/lib64/libmisys_jni.xiaomi.so
+system/lib64/vendor.xiaomi.hardware.misys@1.0.so
+system/lib64/vendor.xiaomi.hardware.misys@2.0.so
+system/lib64/vendor.xiaomi.hardware.misys@3.0.so
+system/lib64/vendor.xiaomi.hardware.misys@4.0.so
+vendor/bin/hw/vendor.xiaomi.hardware.misys@1.0-service
+vendor/bin/hw/vendor.xiaomi.hardware.misys@2.0-service
+vendor/bin/hw/vendor.xiaomi.hardware.misys@3.0-service
+vendor/bin/hw/vendor.xiaomi.hardware.misys@4.0-service
+vendor/etc/init/vendor.xiaomi.hardware.misys@1.0-service.rc
+vendor/etc/init/vendor.xiaomi.hardware.misys@2.0-service.rc
+vendor/etc/init/vendor.xiaomi.hardware.misys@3.0-service.rc
+vendor/etc/init/vendor.xiaomi.hardware.misys@4.0-service.rc
+vendor/etc/vintf/manifest/vendor.xiaomi.hardware.misys@1.0.xml
+vendor/etc/vintf/manifest/vendor.xiaomi.hardware.misys@2.0.xml
+vendor/etc/vintf/manifest/vendor.xiaomi.hardware.misys@3.0.xml
+vendor/etc/vintf/manifest/vendor.xiaomi.hardware.misys@4.0.xml
+vendor/lib64/hw/vendor.xiaomi.hardware.misys@1.0-impl.so
+vendor/lib64/hw/vendor.xiaomi.hardware.misys@2.0-impl.so
+vendor/lib64/hw/vendor.xiaomi.hardware.misys@3.0-impl.so
+vendor/lib64/hw/vendor.xiaomi.hardware.misys@4.0-impl.so
+vendor/lib64/vendor.xiaomi.hardware.misys@1.0.so
+vendor/lib64/vendor.xiaomi.hardware.misys@2.0.so
+vendor/lib64/vendor.xiaomi.hardware.misys@3.0.so
+vendor/lib64/vendor.xiaomi.hardware.misys@4.0.so
+
+# MiSys Deps
+vendor/lib64/libcheckpid.so
+vendor/lib64/liblogwrap_vendor.so
+
+# Camera Overwrite
+vendor/etc/init/android.hardware.camera.provider@2.4-service_64.rc
